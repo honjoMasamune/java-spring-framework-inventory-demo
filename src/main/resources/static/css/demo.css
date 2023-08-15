@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@400;700&display=swap");
+:root {
+    --primary-color1: #121420;
+    --primary-color2: #fba90a;
+    --secondary-color1: #3f3f3f;
+    --secondary-color2: #fba90a;
+    --secondary-color3: #f7ebd4;
+}
+
+body {
+    background-color: var(--secondary-color1);
+    margin: 0;
+    font-family: "Poppins", "Arial", "sans-serif";
+}
