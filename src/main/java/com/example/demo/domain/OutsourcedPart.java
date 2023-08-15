@@ -5,11 +5,10 @@ import javax.persistence.Entity;
 
 @Entity
 @DiscriminatorValue("2")
-public class OutsourcedPart extends Part{
-String companyName;
+public class OutsourcedPart extends Part {
+    String companyName;
 
-    public OutsourcedPart() {
-    }
+    public OutsourcedPart() {}
 
     public String getCompanyName() {
         return companyName;

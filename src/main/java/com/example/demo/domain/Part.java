@@ -36,9 +36,10 @@ public abstract class Part implements Serializable {
     Set<Product> products= new HashSet<>();
 
     public Part() {
+        this.inhousePartCheck = "No";
     }
 
-    public Part(String name, String inhousePartCheck,double price, int inv, int minPartValue, int maxPartValue) {
+    public Part(String name, String inhousePartCheck, double price, int inv, int minPartValue, int maxPartValue) {
         this.name = name;
         this.inhousePartCheck = inhousePartCheck;
         this.price = price;

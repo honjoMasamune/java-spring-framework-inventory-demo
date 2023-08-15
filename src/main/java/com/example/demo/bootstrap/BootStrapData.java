@@ -71,11 +71,11 @@ public class BootStrapData implements CommandLineRunner {
     }
 
     private void initializePartData() {
-        InhousePart filter150 = new InhousePart(100150, "Aquarium Filtration 150 GPH", 25.0, 5, 4, 25);
-        InhousePart filter200 = new InhousePart(100200,"Aquarium Filtration 200 GPH", 35.0, 5, 4, 25);
-        InhousePart filter350 = new InhousePart(100350,"Aquarium Filtration 350 GPH", 45.0, 5, 4, 25);
-        InhousePart bioCR10lbs = new InhousePart(111001,"Bio Ceramic Rings - 10lbs", 40.0, 5, 4, 25);
-        InhousePart bioBalls50pc = new InhousePart(111002,"Bio Balls - 1pk of 50pcs", 10.0, 5, 4, 25);
+        InhousePart filter150 = new InhousePart(100150, "Aquarium Filtration 150 GPH", "Yes",25.0, 5, 4, 25);
+        InhousePart filter200 = new InhousePart(100200,"Aquarium Filtration 200 GPH", "Yes",35.0, 5, 4, 25);
+        InhousePart filter350 = new InhousePart(100350,"Aquarium Filtration 350 GPH", "Yes",45.0, 5, 4, 25);
+        InhousePart bioCR10lbs = new InhousePart(111001,"Bio Ceramic Rings - 10lbs", "Yes",40.0, 5, 4, 25);
+        InhousePart bioBalls50pc = new InhousePart(111002,"Bio Balls - 1pk of 50pcs", "Yes",10.0, 5, 4, 25);
 
         partRepository.save(filter150);
         partRepository.save(filter200);

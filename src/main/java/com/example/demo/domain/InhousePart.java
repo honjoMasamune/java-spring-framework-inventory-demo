@@ -23,6 +23,7 @@ public class InhousePart extends Part{
     int maxPartValue;
 
     public InhousePart() {
+        this.inhousePartCheck = "Yes";
     }
 
     public InhousePart(String name, String inhousePartCheck,double price, int inv, int minPartValue, int maxPartValue) {
