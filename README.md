@@ -2,6 +2,8 @@
 
 *This is a demo showcasing a Java Spring Framework inventory application. The demo will start with five in-house parts and five products.*
 
+After starting the application, browse to *http://localhost:8080/mainscreen*, to start the demo.
+
 ### Under the Parts section, you will be able to do the following:
 
 * Search for parts
